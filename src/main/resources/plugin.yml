@@ -1,0 +1,8 @@
+main: me.tomerdad.parlayesplanet.ParlaYesPlanet
+name: parlayesplanet
+version: 1
+author: tomerdad
+
+commands:
+  popcorn:
+    description: open-gui

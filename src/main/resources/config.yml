@@ -1,0 +1,22 @@
+item: 'STONE'
+#the plugin will add automatic the popcorn number (u can use color because the found is enchant, if u don't want color put §f)
+item-name: 'פופקורן'
+single-command: 'say hello'
+message: '§4You found ring %player% %ring%'
+all-found-message: '§4You found all rings %player%'
+gui-title: '§l§6Popcorn'
+lore:
+  1:
+    - 'hello'
+    - 'tomer'
+  2:
+    - '12'
+    - '32'
+# both of them start at 1
+location:
+  1: 1
+  2: 3
+general-command: 'tp %player% 0 100 0'
+found-hologram: '&aמצאת'
+#mode please dont tuch and only from commands /ring start or /ring stop
+mode: false
